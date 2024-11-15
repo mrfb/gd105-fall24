@@ -8,7 +8,7 @@ PFont lora;
 PFont loraItalic;
 
 void setup(){
-  fullScreen();
+  fullScreen(2);
   frameRate(1);
   lora = loadFont("LoraRoman-Medium-128.vlw");
   loraItalic = loadFont("Lora-Italic-64.vlw");
